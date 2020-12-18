@@ -1,0 +1,68 @@
+{% extends('base.html.twig') %}
+
+{% block title %}Volby{%endblock%}
+
+{% block body %}
+
+{% if volby == 'ps2017' %}
+    <h1>Poslanecká sněmovna 2017</h1>
+{% endif %}
+
+{% if volby == null %}
+    <div class="header-wrapper">
+    <div>
+        <h1>Volby</h1>
+    </div>
+    <header>
+        <a href="#">Domů</a>
+        <a href="#">Výsledky</a>
+        <a href="#">O projektu</a>
+        <a href="#">Kontakt</a>
+    </header>
+</div>
+
+<main>
+    <div class="volby-card-deck">
+        <a href="app/ps2017">
+            <div class="card">
+                <h4>Karta 1</h4>
+            </div>
+        </a>
+        <div class="card">
+            <h4>Karta 2</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 3</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 4</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 1</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 2</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 3</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 4</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 1</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 2</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 3</h4>
+        </div>
+        <div class="card">
+            <h4>Karta 4</h4>
+        </div>
+    </div>
+</main>
+{% endif %}
+
+{% endblock %}

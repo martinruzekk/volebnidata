@@ -1,0 +1,107 @@
+/*# sourceMappingURL=style.css.map */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 10vh;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    header {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            color: black;
+            text-decoration: none;
+            transition: .2s;
+
+            &:hover {
+                color: #0a0a0a;
+            }
+        }
+    }
+}
+
+.landing {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    .landing-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30%;
+
+        button {
+            text-align: center;
+            background-color: #d72323;
+            color: white;
+            border: none;
+            border-radius: 1rem;
+            padding: 1.3rem;
+            font-weight: 700;
+            z-index: 50;
+            margin-top: 10px;
+            box-shadow: 3px 5px 13px 1px rgba(37, 37, 37, 0.356);
+            transition: .3s all;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 5px 8px 13px 1px rgba(37, 37, 37, 0.356);
+                background-color: #df3c3c;
+            }
+        }
+    }
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volby-card-deck {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .card {
+        border-radius: 1rem;
+        min-width: 300px;
+        min-height: 150px;
+        border: 4px solid #d72323;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 20px 0px 20px 0px;
+    }
+}
