@@ -20,3 +20,11 @@ Pro vytvoření aplikace je nutné:
 * Navrhnout databázi
 * Vymyslet cachování
 * Nadesignovat vzhled stránky
+
+
+# UPDATES
+
+## 18.12.2020
+
+* Added simple router
+* Added simple viewing template
